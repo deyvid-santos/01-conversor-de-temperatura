@@ -1,0 +1,32 @@
+.converter-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-family: sans-serif;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 24px;
+  border-radius: 8px;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.input-group label {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.input-group input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
